@@ -5,7 +5,7 @@ Prosthetic app for prosthetic hand project of Algonquin Robotix Club.
 
 
 *** 
-# README Guide
+# Gitlab guide (deprecated)
 ## Add your files
 
 * [Create](https://docs.gitlab.com/user/project/repository/web_editor/#create-a-file) or [upload](https://docs.gitlab.com/user/project/repository/web_editor/#upload-a-file) files
