@@ -1,13 +1,11 @@
 # Prosthetic_app
+## Description
+Prosthetic app for prosthetic hand project of Algonquin Robotix Club.
 
 
 
-## Getting started
-
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
-
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
-
+*** 
+# README Guide
 ## Add your files
 
 * [Create](https://docs.gitlab.com/user/project/repository/web_editor/#create-a-file) or [upload](https://docs.gitlab.com/user/project/repository/web_editor/#upload-a-file) files
