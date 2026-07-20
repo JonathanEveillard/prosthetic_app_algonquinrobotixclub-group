@@ -19,7 +19,7 @@ export default function ActuatorSlider({ value, onChange }) {
         step={1}
         value={value}
         onValueChange={onChange}
-        minimumTrackTintColor="#00f3ff" // Glowing cyan track
+        minimumTrackTintColor="#f1f1f1" // Glowing cyan track
         maximumTrackTintColor="rgba(255, 255, 255, 0.15)"
         thumbTintColor="#ffffff"
       />
@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
   valueUnit: {
     fontSize: 24,
     fontWeight: '600',
-    color: '#00f3ff', // Cyan
+    color: '#f1f1f1', // Cyan
     marginLeft: 4,
   },
   slider: {
