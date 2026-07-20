@@ -105,7 +105,7 @@ export default function CalibrationScreen() {
             <Path
               d={generatePath()}
               fill="none"
-              stroke="#00f3ff"
+              stroke="#f1f1f1"
               strokeWidth="2.5"
             />
 
@@ -114,7 +114,7 @@ export default function CalibrationScreen() {
               cx={CHART_WIDTH}
               cy={CHART_HEIGHT - (dataPoints[dataPoints.length - 1] / 100) * CHART_HEIGHT}
               r="4"
-              fill="#00f3ff"
+              fill="#f1f1f1"
             />
           </Svg>
         </View>
@@ -195,11 +195,11 @@ const styles = StyleSheet.create({
     width: 6,
     height: 6,
     borderRadius: 3,
-    backgroundColor: '#00f3ff',
+    backgroundColor: '#f1f1f1',
     marginRight: 6,
   },
   liveText: {
-    color: '#00f3ff',
+    color: '#f1f1f1',
     fontSize: 9,
     fontWeight: 'bold',
     letterSpacing: 1,

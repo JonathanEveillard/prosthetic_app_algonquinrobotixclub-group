@@ -1,11 +1,11 @@
 // constants/Colors.js
 export const Colors = {
-  background: '#060812',       // Space dark background
-  cardBackground: 'rgba(13, 19, 36, 0.6)',
-  border: 'rgba(255, 255, 255, 0.08)',
+  background: '#1a1a1a',       // Space dark background
+  cardBackground: '#1a1a1a',
+  border: 'rgba(255, 253, 253, 0.08)',
   
   // Accents
-  cyan: '#00f3ff',
+  cyan: '#f1f1f1',
   magenta: '#bd00ff',
   green: '#39ff14',
   

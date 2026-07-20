@@ -34,14 +34,14 @@ export default function App() {
         <StatusIndicator label="STATUS" />
         
         {/* Main Title */}
-        <Text style={styles.title}>ACTUATOR // CHANNEL 01</Text>
+        <Text style={styles.title}></Text>
 
         {/* Reusable Slider Component (passes state & event down) */}
         <ActuatorSlider value={value} onChange={(val) => setValue(val)} />
            {/* 2. Place the Link inside the UI return block! */}
         
         <Link href="/calibration" style={styles.linkText}>
-          Go to Calibration Screen
+          Calibration Monitor
         </Link>
 
         {/* Raw Feed Output display */}
@@ -67,6 +67,13 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     padding: 20,
+  },
+  linkText:{
+    color: '#1a1a1a',
+    padding:12,
+    borderRadius: 4,
+    borderColor: '#f1f1f1',
+    backgroundColor: '#f1f1f1',
   },
   card: {
     backgroundColor: 'rgba(13, 19, 36, 0.6',
@@ -117,14 +124,14 @@ const styles = StyleSheet.create({
   },
   copyButton: {
     backgroundColor: 'rgba(0, 243, 255, 0.08)',
-    borderColor: 'rgba(0, 243, 255, 0.3)',
+    borderColor: '#00f3ff4d',
     borderWidth: 1,
     paddingVertical: 6,
     paddingHorizontal: 12,
     borderRadius: 4,
   },
   copyButtonText: {
-    color: '#00f3ff',
+    color: '#f1f1f1',
     fontSize: 12,
     fontWeight: 'bold',
   },

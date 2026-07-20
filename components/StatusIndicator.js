@@ -20,9 +20,9 @@ const styles = StyleSheet.create({
     width: 8,
     height: 8,
     borderRadius: 4,
-    backgroundColor: '#39ff14', // Neon Green status glow
+    backgroundColor: '#00f3ff4d', // Blue Theme
     marginRight: 6,
-    shadowColor: '#39ff14',
+    shadowColor: '#00f3ff4d',
     shadowOffset: { width: 0, height: 0 },
     shadowOpacity: 0.8,
     shadowRadius: 4,

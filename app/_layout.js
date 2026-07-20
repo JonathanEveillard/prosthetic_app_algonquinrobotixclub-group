@@ -11,7 +11,7 @@ export default function Layout() {
         
         // Style the bottom tab bar (dark background to match our theme)
         tabBarStyle: {
-          backgroundColor: '#0d1324',
+          backgroundColor: '#1a1a1a',
           borderTopColor: Colors.border,
           height: 60,
           paddingBottom: 8,
